@@ -1,0 +1,27 @@
+li a{
+    display:block;
+    color:black;
+    text-decoration: none;
+    padding: 25px 35px;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    width:150px;
+    background-color:antiquewhite;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a:hover:not(.active){
+    background-color:darkblue;
+    color:white;
+}
+
+li a:active {
+    background-color: rgb(49, 40, 65);
+    color: white;
+}
